@@ -290,11 +290,13 @@ border-width: 5px;
 .skills {
   display: flex;
   justify-content: space-evenly;
+  max-width: 100%;
   background-color: var(--previewShadow);
 }
 .project{
     background-color: var(--previewShadow);
     padding: 2px;
+    max-width: 100%;
 }
 .social-links {
   display: grid;
