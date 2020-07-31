@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="main.css"> 
         <!-- <link id="theme-style" rel="stylesheet" href="blue.css"> -->         
     </head>     
-    <body> 
+    <body id="top"> 
         <section class="s1"> 
             <div class="main-container"> 
                 <div class="greeting"> 
@@ -18,11 +18,14 @@
                 </div>                 
                 <div class="intro"> 
                     <div class="navigate"> 
-                        <div class="dots-wrapper"> 
-                            <div id="dot1" class="browser-dot"> </div>                             
-                            <div id="dot2" class="browser-dot"> </div>                             
-                            <div id="dot3" class="browser-dot"> </div>                             
-                        </div>                         
+                        <div> 
+                            <span id="dot" class="browser-dot"> <a href="#choice1"> About-me </a> </span>  
+                            <span id="dot" class="browser-dot"> <a href="#choice2"> Top Expertise </a></span>
+                            <span id="dot" class="browser-dot"> <a href="#choice3">Education</a> </span>                             
+                            <span id="dot" class="browser-dot"> <a href="#choice4"> Certificates </a></span>
+                            <span id="dot" class="browser-dot"> <a href="#choice5"> Profile Links</a> </span>
+                        </div>
+                        
                         <p id="navigation"> 
                             Welcome                             
                         </p>                         
@@ -47,7 +50,7 @@
                                 What I Do
  </h3> 
                                 <p> 
-                                I'm a software developer and I like to design websites and build softwares.
+                                I'm a software developer and I like to design websites and build web applications and softwares.
  </p> 
                                 <div id="corner-bl" class="corner"></div>                                 
                                 <div id="corner-bl" class="corner"></div>                                 
@@ -61,43 +64,98 @@
             <div class="main-container"> 
                 <div class="about"> 
                     <div class="about-me"> 
-                        <h4>About me:</h4> 
+                        <h4 id="choice1">About me:</h4> 
                         <p> 
                         I'm an udergradute final year student, I design websites using HTML, CSS and Javascript. I work with programming languages such as Python and C++.
  </p> 
                         <p> 
                         I'm also a competitive programmer, I like to participate in competitive coding competitions on online platforms such as codechef, Hackerrank, Hackerearth etc...
  </p> 
-                        <hr> 
-                        <h4>TOP EXPERTISE</h4> 
-                        <p>Web developer with primary focus on Django and Python: <a target="_blank" href="Krishna's Resume.pdf"/> Download Resume</a> </p> 
-                        <div id="skills"> 
-                            <ul> 
-                                <li>Python </li>                                 
-                                <li>C++</li>                                 
-                                <li>Data Structure and Algorithms</li>                                 
-                                <li>SQL</li>                                 
-                            </ul>                             
-                            <ul> 
-                                <li>Django</li>                                 
-                                <li>HTML</li>                                 
-                                <li>CSS</li>                                 
-                                <li>Kiwi</li>                                 
-                            </ul>                             
-                        </div>                         
+                        <hr>
+                        <h4 id="choice2">TOP EXPERTISE</h4>
+                        <p>Web developer with primary focus on Django and Python: <a target="_blank" href="Krishna's Resume.pdf" /> Download
+                            Resume</a> </p>
+                        <div class="skills">
+                            <ul>
+                                <li>Python </li>
+                                <li>C++</li>
+                                <li>Data Structure and Algorithms</li>
+                                <li>SQL</li>
+                            </ul>
+                            <ul>
+                                <li>Django</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Kiwi</li>
+                            </ul>
+                        </div>
+                        <h4 id="choice3">EDUCATION</h4>
+                        
+                        <h5> Graduation </h5>
+                        <div class="education">
+                            <ul>
+                                <li>University Name - JECRC Univerity </li>
+                                <li>City - Jaipur</li>
+                                <li>Branch - Computer science and engineering (B.tech) </li>
+                                <li>Year - 2017 - 2021 </li>
+                                <li>CGPA - 7.31</li>
+                            </ul>
+                        
+                        </div>
+
+                        
+                        <h5>Intermediate (12th):</h5>
+                        <div class="education">
+                            <ul>
+                                <li> School Name: JBS Children Paradise school  </li>
+                                <li>City: Kota</li>
+                                <li>Board: CBSE</li>
+                                <li>Year: 2016 - 2017</li>
+                                <li>Percentage: 80.08%</li>
+                            </ul>
+                        
+                        </div>
+
+                        <h5> High School (10th): </h5>
+                        <div class="education">
+                            <ul>
+                                <li>School Name: Sunrise Public School </li>
+                                <li>City: Aspur</li>
+                                <li>Board: RBSE</li>
+                                <li>Year: 2014 - 2015</li>
+                                <li>Percentage: 89.17%</li>
+                            </ul>
+                        
+                        </div>                                                
                     </div>                     
                     <div class="social-links"> 
-                        <!-- <img style="align-items: center;" src="/images/LinkedIn.jpg" alt=""> -->                         
+                        <!-- <img style="align-items: center;" src="/images/LinkedIn.jpg" alt=""> -->  
+                        <h5> LinkedIn </h5>
+
                         <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="krishna-meghwal-943977155">
                             <a class="LI-simple-link" href='https://in.linkedin.com/in/krishna-meghwal-943977155?trk=profile-badge'>Krishna Meghwal</a>
-                        </div>                         
+                        </div> 
+                        
+                        <h4>PROJECTS/WORK SAMPLE</h4>
+                        
+                        <div class="skills">
+
+                            <ul>
+                            <li>
+                                <h5> Portfolio</h5>
+                                <p>Designed portfolio website to showcase my front-end skills such as HTML, CSS.</p> 
+                            </li>                            
+                            </ul>
+                            
+                        </div>
+
                     </div>                     
                 </div>                 
             </div>             
         </section>         
         <section class="s1"> 
             <div class="main-container"> 
-                <h3 style="text-align: center;">Some of my Certifications</h3> 
+                <h3 id="choice4" style="text-align: center;">Some of my Certifications</h3> 
                 <div class="certifications"> 
                     <div> 
                         <div class="certificate"> 
@@ -140,7 +198,72 @@
                                 <a target="_blank" href="https://www.udemy.com/course/python-tutorials-for-by-navinreddy/"> Read More</a> 
                             </div>                             
                         </div>                         
-                    </div>                     
+                    </div>    
+                    <div>
+                        <div class="certificate">
+                            <img class="thumbnails" src="./images/Competitive programming with python.jpg" alt="" />
+                            <div class="certificate-preview">
+                                <h6 class="certificate-title"> Competitive programming with Python</h6>
+                                <hr>
+                                <a target="_blank" class="cert-link" href="https://verify.givemycertificate.com/verify/2007001711000639">
+                                    Certificate Link</a>
+                                <p class="Details">
+                                    In this course, I learn to do competitve programming using Python.
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="certificate">
+                            <img class="thumbnails" src="./images/Hackerrank (Python -Basic).png" alt="" />
+                            <div class="certificate-preview">
+                                <h6 class="certificate-title">Python basic certificate</h6>
+                                <hr>
+                                <a target="_blank" class="cert-link" href="https://www.hackerrank.com/certificates/d981dc086b5b">
+                                    Certificate Link</a>
+                                <p class="Details">
+                                    I generated this certification by takin part in HackerRank Skills Certification Test.
+                                </p>
+                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="certificate">
+                            <img class="thumbnails" src="./images/internshala.certificate.png" alt="" />
+                            <div class="certificate-preview">
+                                <h6 class="certificate-title"> Internshala -
+                                Ethical Hacking</h6>
+                                <hr>
+                                <a target="_blank" class="cert-link" href=" https://trainings.internshala.com/verify_certificate">
+                                    Certificate Link</a>
+                                <p class="Details">
+                                    Certificate Number : 63A96158-1AC4-6CE2-717C-CB4F5262300C <br>
+                                 I generated this certificate by taking part in the Internshala training for ethical hacking.
+                                </p>
+                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="certificate">
+                            <img class="thumbnails" src="./images/Cisco Certificate.png" alt="" />
+                            <div class="certificate-preview">
+                                <h6 class="certificate-title">Cybersecurity Essentials</h6>
+                                <hr>
+                                <a target="_blank" class="cert-link" href="https://www.hackerrank.com/certificates/d981dc086b5b">
+                                    Certificate Link</a>
+                                <p class="Details">
+                                    I generated this certificate by completing the Cisco's Cybersecurity Essentials Course. 
+                                </p>
+                    
+                            </div>
+                        </div>
+                    </div>
                 </div>                 
             </div>             
         </section>         
@@ -159,7 +282,7 @@
                     <textarea class="input-field" name="message"></textarea> 
                     <input id="submit-butt" type="submit" value="Send"> 
                 </form>                  -->
-                <h3 style="text-align: center;"> Profile Links</h3>
+                <h3 id="choice5" style="text-align: center;"> Profile Links</h3>
                 <ul class="links-block">
                     <li class="links">
                         <a target="_blank" href="https://www.codechef.com/users/point_shackle"> <h5> Codechef </h5> </a>
@@ -184,13 +307,11 @@
                     </li>
                 </ul>
             </div>             
-        </section>         
-<<<<<<< HEAD
+        </section> 
+        <h6 style="text-align: center;"> <a style="color: black;" href="#top"> BACK TO TOP </a>
+        </h6>      
     </body>
     <br>
     <br>     
 </html>
-=======
-    </body>     
-</html>
->>>>>>> 948ecd5582b6932365d348a27a0cd4d142fa9220
+
