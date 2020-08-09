@@ -41,6 +41,12 @@ textarea {
   color: var(--secondaryText);
   font-family: "Roboto Mono", monospace;
 }
+#logo1{
+  justify-content: start;
+  vertical-align:middle;
+  height: 50px;
+  width: 50px;
+}
 a {
   text-decoration: none;
   color: green;
