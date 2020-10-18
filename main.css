@@ -361,7 +361,12 @@ border-width: 5px;
   grid-template-rows: repeat(auto-fit, minmax(10px, 1fr));
   background-color: #f0ead6;
   justify-content: center;
+ 
 }
+.links > a,h5 {
+  margin: 10px;
+}
+
 
 #contact-form {
   display: block;
