@@ -41,9 +41,9 @@ textarea {
   color: var(--secondaryText);
   font-family: "Roboto Mono", monospace;
 }
-#logo1{
+#logo1 {
   justify-content: start;
-  vertical-align:middle;
+  vertical-align: middle;
   height: 50px;
   width: 50px;
 }
@@ -54,8 +54,8 @@ a {
 /* a:link {
   color: slategrey;
 } */
-a:visited{
-    color: red;
+a:visited {
+  color: red;
 }
 a:hover {
   color: black;
@@ -94,7 +94,6 @@ h6 {
 }
 
 .main-container {
-
   width: 1200px;
   margin: 0 auto;
 }
@@ -149,10 +148,9 @@ h6 {
 .dots-wrapper {
   display: flex;
 }
-#dot{
-    font-weight: 500 ;
-    background-color: azure;
-  
+#dot {
+  font-weight: 500;
+  background-color: azure;
 }
 /* #dot2 {
     
@@ -181,7 +179,7 @@ h6 {
   padding: 2px;
   border-radius: 5px 5px 0 0;
   margin: 5px;
-   
+
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -288,7 +286,7 @@ border-width: 5px;
 
 .about {
   display: grid;
-  padding: 50px;  
+  padding: 50px;
   /* border: thin solid black; */
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 100px;
@@ -296,13 +294,13 @@ border-width: 5px;
 .skills {
   display: flex;
   justify-content: space-evenly;
-   width: 100%;
+  width: 100%;
   background-color: var(--previewShadow);
 }
-.project{
-    background-color: var(--previewShadow);
-    padding: 2px;
-    width: 100%;
+.project {
+  background-color: var(--previewShadow);
+  padding: 2px;
+  width: 100%;
 }
 .social-links {
   display: grid;
@@ -313,7 +311,7 @@ border-width: 5px;
   width: 100%;
 }
 
-.education{
+.education {
   display: flex;
   justify-content: left;
   background-color: var(--previewShadow);
