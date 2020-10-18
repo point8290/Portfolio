@@ -48,7 +48,8 @@ textarea {
   width: 50px;
 }
 a {
-  text-decoration: none;
+  text-decoration:none;
+  padding: 2px;
   color: green;
 }
 /* a:link {
@@ -58,7 +59,8 @@ a:visited {
   color: red;
 }
 a:hover {
-  color: black;
+  padding:9px;
+  color:white;
 }
 ul {
   list-style: none;
@@ -148,6 +150,7 @@ h6 {
 .dots-wrapper {
   display: flex;
 }
+
 #dot {
   font-weight: 500;
   background-color: azure;
@@ -346,10 +349,14 @@ border-width: 5px;
 }
 .cert-link {
   color: #192734;
-  font-size: 20px;
+  font-size: 15px;
   background-color: #fec02f;
   padding-left: 5px;
-  list-style: square;
+  
+}
+.cert-link:hover{
+  padding:5px;
+  background-color: black;
 }
 .Details {
   color: #4b5156;
@@ -366,6 +373,7 @@ border-width: 5px;
   margin: 10px;
   
 }
+
 
 
 #contact-form {
