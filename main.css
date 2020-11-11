@@ -58,7 +58,7 @@ a {
 a:visited {
   color: red;
 }
-a:hover {
+.certificate a:hover {
   padding:9px;
   color:white;
 }
@@ -198,7 +198,7 @@ h6 {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  border: 2px solid var(--borderColor);
+  border: 5px groove var(--borderColor);
 }
 
 /* #Theme_options{
@@ -248,29 +248,41 @@ border-width: 5px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+/*
 #preview-shadow {
   background-color: var(--previewShadow);
-  max-width: 300px;
+  max-width: 400px;
   height: 180px;
-  padding-left: 30px;
-  padding-top: 30px;
+  padding: 30px;
+} */
+.border-b{
+  border: 8px inset var(--borderColor);
+  background-color: var(--previewBG);
 }
 #preview {
-  width: 300px;
-  border: 1.5px solid #17a2b8;
-  background-color: var(--previewBG);
-  padding: 15px;
+  width: 400px;
+  height:200px;
+  margin: 0px 10px;
+  
+  text-align: center;
   position: relative;
 }
+
 .corner {
   width: 7px;
   height: 7px;
   border-radius: 50%;
   border: 1.5px solid #17a2b8;
-  background-color: #fff;
+  background-color: rgb(146, 145, 145);
   position: absolute;
 }
-#corner-tl {
+.contact{
+  width:300px;
+  margin: 20px auto 0px auto;
+  line-height: 8px;
+  text-align: center;
+}
+/* #corner-tl {
   top: -5px;
   left: -5px;
 }
@@ -285,12 +297,11 @@ border-width: 5px;
 #corner-bl {
   bottom: -5px;
   left: -5px;
-}
+} */
 
 .about {
   display: grid;
-  padding: 50px;
-  /* border: thin solid black; */
+  padding: 20px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 100px;
 }
@@ -328,6 +339,7 @@ border-width: 5px;
   padding-bottom: 50px;
 }
 .certificate {
+  margin:10px;
   border: 1px solid var(--borderColor);
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -337,9 +349,10 @@ border-width: 5px;
   width: 100%;
   height: 180px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
 }
 .certificate-preview {
+  height:150px;
   background-color: #fff;
   padding: 15px;
 }
@@ -355,8 +368,8 @@ border-width: 5px;
   
 }
 .cert-link:hover{
-  padding:5px;
-  background-color: black;
+  
+ background-color: black;
 }
 .Details {
   color: #4b5156;
@@ -373,7 +386,16 @@ border-width: 5px;
   margin: 10px;
   
 }
-
+.project-box{
+  
+  margin-bottom: 10px;
+  margin-right:25px;
+}
+.project-title{
+  color:#17a2b8;
+  
+}
+/* 
 
 
 #contact-form {
@@ -414,7 +436,7 @@ border-width: 5px;
   color: #fff;
   background-color: var(--buttColor);
   border: none;
-}
+} */
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
