@@ -349,7 +349,7 @@ border-width: 5px;
   width: 100%;
   height: 180px;
   display: block;
-  object-fit: fill;
+  object-fit: cover;
 }
 .certificate-preview {
   height:150px;
